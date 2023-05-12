@@ -1,2 +1,2 @@
 build:
-	gopherjs build ./cmd/app/main.go -o ./.dist/index.js
+	gopherjs build ./cmd/app/main.go -o ./assets/index.js
