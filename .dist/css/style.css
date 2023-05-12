@@ -1,0 +1,26 @@
+:root {
+  background-color: black;
+  color: #eee;
+  display: flexbox;
+  min-width: 100wv;
+  min-height: 100vh;
+  
+  margin: 0 auto;
+  position: relative;
+  place-items: center;
+  line-height: 1.5;
+
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  cursor: default;
+}
