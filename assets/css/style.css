@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   background-color: black;
   color: #eee;
@@ -19,8 +24,18 @@
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
 }
 
 * {
   cursor: default;
+}
+
+.player {
+  position: absolute;
+  background: red;
+  height: 30px;
+  width: 30px;
+
 }
